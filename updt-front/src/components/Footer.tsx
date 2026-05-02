@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-12">
           <div className="text-2xl font-display font-black text-gradient-primary tracking-tighter">
-            UPDT.
+            <img src="/update.png" alt="upDate" className="h-6 w-auto inline-block" />
           </div>
           <div className="flex flex-wrap justify-center gap-8 text-sm font-medium text-slate-400">
             <a href="#about" className="hover:text-white transition-colors">Program</a>
@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} UPDT. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} upDate. All rights reserved.</p>
           <div className="flex gap-6 font-medium">
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

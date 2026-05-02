@@ -23,23 +23,24 @@ export default function Skills() {
       icon: <Megaphone className="w-5 h-5" />,
       color: "text-zinc-400 group-hover:text-red-500",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600",
+        "https://plus.unsplash.com/premium_photo-1661310181347-ddea5f5c3f9c?w=900&auto=format&fit=crop&q=60&w=600",
     },
     {
-      name: "Real Projects",
-      tags: ["Architecture", "Deployment", "Git"],
+      name: "Management", 
+      tags: ["HR", "Sales", "Business Development"],
       icon: <Hammer className="w-5 h-5" />,
       color: "text-zinc-400 group-hover:text-red-500",
       image:
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
+        "https://plus.unsplash.com/premium_photo-1661414415246-3e502e2fb241?w=900&auto=format&fit=crop&q=60&w=600",
+        
     },
     {
-      name: "Communication",
-      tags: ["Email Etiquette", "Meetings", "Agile"],
+      name: "Data Analytics",
+      tags: ["Excel", "SQL", "Power BI", "Python"],  
       icon: <MessageSquare className="w-5 h-5" />,
       color: "text-zinc-400 group-hover:text-red-500",
       image:
-        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?w=900&auto=format&fit=crop&q=60&w-600",
     },
     {
       name: "Interview Prep",
@@ -47,7 +48,7 @@ export default function Skills() {
       icon: <Presentation className="w-5 h-5" />,
       color: "text-zinc-400 group-hover:text-red-500",
       image:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=600",
+        "https://plus.unsplash.com/premium_photo-1676666379095-9ca0e5cfa979?w=900&auto=format&fit=crop&q=60&w=600",
     },
   ];
 
