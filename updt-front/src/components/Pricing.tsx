@@ -49,9 +49,9 @@ export default function Pricing() {
             <div className="flex flex-col gap-4 mb-10">
               {[
                 "Complete 45 Days Program",
-                "1-on-1 Expert Mentorship",
+                // "1-on-1 Expert Mentorship",
                 "Exclusive Corporate Kit",
-                "100% Placement Assistance"
+                // "100% Placement Assistance"
               ].map((feature, i) => (
                 <div key={i} className="flex items-center gap-3">
                   <div className="w-5 h-5 rounded-full bg-red-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-red-500/20 transition-colors">
