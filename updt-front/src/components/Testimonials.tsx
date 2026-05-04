@@ -55,7 +55,7 @@ export default function Testimonials() {
                     <Star
                       key={i}
                       size={16}
-                      fill={i < 4 ? "currentColor" : "none"} // 4 solid, 1 regular
+                      fill={i < 5 ? "currentColor" : "none"} // 4 solid, 1 regular
                     />
                   ))}
                 </div>

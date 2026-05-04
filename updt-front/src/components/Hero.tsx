@@ -30,7 +30,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
             </span>
-            Registered Under DPIIT, Govt. of India
+            Registered Under MCA Govt. of India
           </motion.div>
 
           <motion.h1
