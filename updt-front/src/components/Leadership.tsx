@@ -22,7 +22,7 @@ export default function Leadership() {
                 <img
                   src="/ceo.png"
                   alt="Kirtan Sahu - CEO upDate"
-                  className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
+                  className="w-full h-full object-cover filter group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
                   loading="lazy"
                   referrerPolicy="no-referrer"
                 />
