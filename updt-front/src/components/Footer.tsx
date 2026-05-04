@@ -25,7 +25,7 @@ export default function Footer() {
             <h4 className="text-white font-medium text-sm tracking-wider uppercase mb-6">Quick Links</h4>
             <ul className="space-y-4 text-sm text-slate-400">
               <li><a href="#about" className="hover:text-red-400 transition-colors">About Program</a></li>
-              <li><a href="#skills" className="hover:text-red-400 transition-colors">Internship Benefits</a></li>
+              <li><a href="#kit" className="hover:text-red-400 transition-colors">Internship Benefits</a></li>
               <li><a href="#timeline" className="hover:text-red-400 transition-colors">How to Apply</a></li>
               <li><button onClick={() => document.dispatchEvent(new CustomEvent('open-apply-modal'))} className="hover:text-red-400 transition-colors text-white font-medium">Apply Now</button></li>
             </ul>

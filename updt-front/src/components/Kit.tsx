@@ -41,7 +41,7 @@ export default function Kit() {
   ];
 
   return (
-    <section className="py-24 relative overflow-hidden border-t border-white/5">
+    <section id="kit" className="py-24 relative overflow-hidden border-t border-white/5">
       <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-96 bg-red-900/10 blur-[100px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">

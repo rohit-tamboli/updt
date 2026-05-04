@@ -53,7 +53,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 relative border-t border-white/5">
+    <section className="py-24 relative border-t border-white/5">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       <div className="max-w-6xl mx-auto px-6 relative z-10">
 
