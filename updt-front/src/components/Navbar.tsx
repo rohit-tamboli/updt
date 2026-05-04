@@ -10,7 +10,7 @@ export default function Navbar() {
           <img
             src="/update.png"
             alt="upDate"
-            className="cursor-pointer h-9 w-auto inline-block"
+            className="cursor-pointer md:h-9 h-8 w-auto inline-block"
           />
         </a>
         {/* <div className="hidden md:flex gap-8 text-sm font-medium text-slate-300">
