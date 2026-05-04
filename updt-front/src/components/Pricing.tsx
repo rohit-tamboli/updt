@@ -38,10 +38,11 @@ export default function Pricing() {
             <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-500 to-transparent opacity-50" />
             
             <div className="mb-8">
-              <p className="text-slate-400 text-2xl line-through decoration-slate-600 mb-2 font-mono">₹4,999</p>
+              <p className="text-slate-400 text-xl decoration-slate-600 mb-2 font-mono">START TODAY FOR JUST</p>
               <div className="flex items-end gap-2">
                 <span className="text-7xl font-display font-bold text-white tracking-tighter">₹99</span>
-                <span className="text-slate-400 mb-2 font-medium">only</span>
+                {/* <span className="text-slate-400 mb-2 font-medium">only</span> */}
+                <p className="text-slate-400 text-2xl line-through decoration-slate-600 mb-2 font-mono">₹299</p>
               </div>
             </div>
 
