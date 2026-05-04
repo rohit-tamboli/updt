@@ -3,12 +3,18 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 bg-[#09090b] pt-20 pb-10 relative z-10">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
           {/* Logo and Description */}
           <div className="flex flex-col gap-6 text-left">
-            <img src="/update.png" alt="upDate" className="h-8 w-auto inline-block self-start" />
+            <a href="/">
+          <img
+            src="/update.png"
+            alt="upDate"
+            className="cursor-pointer h-8 w-auto inline-block"
+          />
+        </a>
             <p className="text-slate-400 text-sm leading-relaxed">
               Building future-ready professionals with real corporate exposure.
             </p>

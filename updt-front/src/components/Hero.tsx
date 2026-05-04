@@ -61,11 +61,11 @@ export default function Hero() {
           >
             <button
               onClick={openModal}
-              className="bg-white text-slate-950 hover:bg-slate-200 px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 text-lg"
+              className="bg-white text-slate-950 hover:bg-slate-200 px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 text-lg cursor-pointer"
             >
               Apply Now <ArrowRight size={20} />
             </button>
-            <button className="bg-white/5 border border-white/10 hover:bg-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 text-lg">
+            <button onClick={() => window.open("/Broshure.pdf", "_blank")} className="bg-white/5 border border-white/10 hover:bg-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 text-lg cursor-pointer">
               Download Brochure <Download size={20} />
             </button>
           </motion.div>
