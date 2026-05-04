@@ -131,7 +131,7 @@ export default function Experts() {
 
       <div className="max-w-6xl mx-auto px-6 relative z-10 mb-12 text-center">
         <h2 className="text-4xl md:text-5xl font-display font-medium tracking-tight mb-4">
-          Meet Our <span className="text-gradient">Experts</span>
+          Meet Our <span className="text-gradient">Interns</span>
         </h2>
         <p className="text-slate-400 text-lg max-w-xl mx-auto mb-8">
           Learn directly from industry leaders who have engineered products for
