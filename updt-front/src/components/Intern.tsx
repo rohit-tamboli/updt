@@ -177,7 +177,7 @@ export default function Experts() {
                       <img
                         src={expert.img}
                         alt={expert.name}
-                        className="w-full h-full object-cover filter grayscale group-hover/card:grayscale-0 transition-all duration-500 scale-100 group-hover/card:scale-110"
+                        className="w-full h-full object-cover filter group-hover/card:grayscale-0 transition-all duration-500 scale-100 group-hover/card:scale-110"
                         loading="lazy"
                       />
                     </div>
