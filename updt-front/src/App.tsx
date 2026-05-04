@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experts from './components/Experts';
+import Intern from './components/Intern';
 import Kit from './components/Kit';
 import Timeline from './components/Timeline';
 import Reach from './components/Reach';
@@ -18,6 +19,7 @@ import CTA from './components/CTA';
 import Footer from './components/Footer';
 import ApplicationForm from './components/ApplicationForm';
 import { ModalProvider } from './components/ModalContext';
+import Leadership from './components/Leadership';
 
 export default function App() {
   return (
@@ -27,13 +29,15 @@ export default function App() {
         <main>
           <Hero />
           <About />
+          <Leadership />
           <Skills />
           <Kit />
           <Timeline />
-          <Testimonials />
           <Experts />
           <Pricing />
           <CTA />
+          <Intern />
+          <Testimonials />
           <Reach />
           <FAQ />
         </main>

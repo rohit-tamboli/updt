@@ -1,26 +1,29 @@
-import { motion } from 'motion/react';
-import { Star } from 'lucide-react';
+import { motion } from "motion/react";
+import { Star } from "lucide-react";
 
 export default function Testimonials() {
   const reviews = [
     {
       name: "Rahul Sharma",
-      role: "Frontend Developer",
-      feedback: "This internship helped me land my first job! The real-world projects were exactly what my resume needed.",
-      initials: "RS"
+      role: "Web Development",
+      feedback:
+        "The projects were practical and helped me build a strong portfolio. I finally feel confident applying for developer roles.",
+      initials: "RS",
     },
     {
       name: "Priya Patel",
-      role: "UI/UX Designer",
-      feedback: "The mentorship and the corporate kit gave me the confidence to ace my interviews. Highly recommended!",
-      initials: "PP"
+      role: "Digital Marketing",
+      feedback:
+        "Loved the hands-on campaigns and real strategy building. I learned skills that I could actually apply immediately.",
+      initials: "PP",
     },
     {
       name: "Amit Kumar",
-      role: "Full Stack Developer",
-      feedback: "I learned more in these 45 days than I did in an entire semester at college. Hands-on learning is the best.",
-      initials: "AK"
-    }
+      role: "HR Internship",
+      feedback:
+        "Great exposure to real HR processes like recruitment and interviews. It gave me clarity and confidence in my career path.",
+      initials: "AK",
+    },
   ];
 
   return (
@@ -31,7 +34,8 @@ export default function Testimonials() {
             Hear From Our <span className="text-gradient">Students</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Don't just take our word for it. Hear from those who successfully transformed their careers with us.
+            Don't just take our word for it. Hear from those who successfully
+            transformed their careers with us.
           </p>
         </div>
 
@@ -48,19 +52,27 @@ export default function Testimonials() {
               <div>
                 <div className="flex gap-1 mb-6 text-red-500">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} fill="currentColor" />
+                    <Star
+                      key={i}
+                      size={16}
+                      fill={i < 4 ? "currentColor" : "none"} // 4 solid, 1 regular
+                    />
                   ))}
                 </div>
+
                 <p className="text-slate-300 mb-8 leading-relaxed text-sm md:text-base">
                   "{review.feedback}"
                 </p>
               </div>
+
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center font-display font-medium text-white text-sm border border-white/10">
                   {review.initials}
                 </div>
                 <div>
-                  <h4 className="text-white font-medium font-display leading-tight">{review.name}</h4>
+                  <h4 className="text-white font-medium font-display leading-tight">
+                    {review.name}
+                  </h4>
                   <p className="text-slate-400 text-xs">{review.role}</p>
                 </div>
               </div>

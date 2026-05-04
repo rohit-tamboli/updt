@@ -2,74 +2,78 @@ import { Linkedin, ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
 
 export default function Experts() {
-  const experts = [
+  const interns = [
     {
-      name: "B K Unhelkar",
-      role: "Ex-CEO at LIC",
-      // company: "Google",
-      image: "/Ex11.png",
+      name: "Suraj Tiwari",
+      role: "Placed at Wipro",
+      desc: "₹4.5 LPA",
+      img: "/In1.png",
     },
     {
-      name: "Shraddha Palekar",
-      role: "Ex-J.P. Morgan",
-      // company: "Meta",
-      image: "/Ex8.png",
+      name: "Manya M",
+      role: "Placed at Cognizant",
+      desc: "Web Development",
+      img: "/In2.png",
     },
     {
-      name: "Albin Benny",
-      role: "Ex-McKinsey & Company",
-      // company: "Amazon",
-      image:
-        "/Ex9.png",
+      name: "Ananya Sindhe",
+      role: "Placed at Flipkart",
+      desc: "₹6 LPA",
+      img: "/In3.png",
     },
     {
-      name: "Neal Vryan C. Versales",
-      role: "Global IT Professional",
-      // company: "Spotify",
-      image:
-        "/Ex5.png",
+      name: "Praveen Tomar",
+      role: "Placed at Maruti Suzuki",
+      desc: "Digital Marketing",
+      img: "/In4.png",
     },
     {
-      name: "Tapas Sarka",
-      role: "Ex-NITTTR",
-      // company: "Netflix",
-      image:
-        "/Ex4.png",
+      name: "Rahul Lodhi",
+      role: "Placed at ITC Limited",
+      desc: "₹5 LPA",
+      img: "/In5.png",
     },
     {
-      name: "Biplab Maity",
-      role: "Ex-Vodafone Idea",
-      // company: "Apple",
-      image:
-        "/Ex3.png",
+      name: "Praveen Parashar",
+      role: "Placed at HYUNDAI",
+      desc: "₹5 LPA",
+      img: "/In6.png",
     },
     {
-      name: "Arun Sahu",
-      role: "Ex-HMEL | HPCL | Adani Group",
-      // company: "Apple",
-      image:
-        "/Ex10.png",
+      name: "Sinana K",
+      role: "Placed at Infosys",
+      desc: "₹5 LPA",
+      img: "/In7.png",
     },
     {
-      name: "Stuti Nayak Panda",
-      role: "Women Entrepreneur",
-      // company: "Apple",
-      image:
-        "/Ex6.png",
+      name: "Sameer Khan",
+      role: "Placed at PARLE",
+      desc: "₹5 LPA",
+      img: "/In8.png",
     },
     {
-      name: "Dr. Reetha Dinesh",
-      role: "Ex-Corporate Trainer",
-      // company: "Apple",
-      image:
-        "/Ex1.png",
+      name: "Amit Kumar Mahato",
+      role: "Placed at upDate",
+      desc: "₹5 LPA",
+      img: "/In9.png",
     },
     {
-      name: "Dr. Namburi L A Amarababu",
-      role: "Ex-Cipla | Dr. Reddy's",
-      // company: "Apple",
-      image:
-        "/Ex7.png",
+      name: "Mayur Digambar",
+      role: "Placed at AlignerAi",
+      desc: "₹5 LPA",
+      img: "/In10.png",
+    },
+    {
+      name: "Sandhya Pal",
+      role: "Placed at UCO BANK",
+      desc: "₹5 LPA",
+      img: "/In11.png",
+    },
+    {
+      name: "Sanjana Bhanajdeo",
+      role: "Placed at UCO BANK",
+      desc: "₹5 LPA",
+      img: "/In12.png",
     },
   ];
 
@@ -163,7 +167,7 @@ export default function Experts() {
           <div className="flex w-max">
             {[...Array(4)].map((_, alignIdx) => (
               <div key={alignIdx} className="flex gap-6 px-3">
-                {experts.map((expert, idx) => (
+                {interns.map((expert, idx) => (
                   <div
                     key={`${alignIdx}-${idx}`}
                     className="w-[260px] md:w-[260px] flex-shrink-0 glass-card rounded-[2rem] p-6 border border-white/10 hover:border-red-500/30 transition-all duration-300 group/card relative cursor-pointer"
@@ -171,7 +175,7 @@ export default function Experts() {
                     <div className="w-full aspect-square rounded-2xl overflow-hidden mb-6 relative">
                       <div className="absolute inset-0 bg-gradient-to-t from-red-500/40 via-transparent to-transparent opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 z-10 pointer-events-none" />
                       <img
-                        src={expert.image}
+                        src={expert.img}
                         alt={expert.name}
                         className="w-full h-full object-cover filter grayscale group-hover/card:grayscale-0 transition-all duration-500 scale-100 group-hover/card:scale-110"
                         loading="lazy"
@@ -185,8 +189,8 @@ export default function Experts() {
                         <p className="text-red-400 text-sm font-medium mb-1">
                           {expert.role}
                         </p>
-                        <p className="text-slate-500 text-xs font-mono">
-                          {/* @ {expert.company} */}
+                        <p className="text-slate-500 text-sm font-mono">
+                          {/* {expert.desc}  */}
                         </p>
                       </div>
                       <div className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 group-hover/card:text-red-400 group-hover/card:border-red-400/30 transition-all transform opacity-0 translate-y-2 group-hover/card:opacity-100 group-hover/card:translate-y-0">

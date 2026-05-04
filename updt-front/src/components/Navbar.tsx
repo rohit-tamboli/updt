@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 glass-pane border-b border-white/5">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <img src="/update.png" alt="upDate" className="h-7 w-auto inline-block" />
+        <img src="/update.png" alt="upDate" className="h-9 w-auto inline-block" />
         {/* <div className="hidden md:flex gap-8 text-sm font-medium text-slate-300">
           <a href="#about" className="hover:text-white transition-colors">Program</a>
           <a href="#skills" className="hover:text-white transition-colors">Skills</a>
